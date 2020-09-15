@@ -9,7 +9,7 @@ server:
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
   type-aliases-package: com.hpu.entities
-  mapper‐locations:
+  mapper-locations:
     - classpath:mybatis/mapper/**/*.xml
 
 spring:
@@ -30,11 +30,11 @@ spring:
 
 eureka:
   client:
-    service‐url:
+    service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance‐id: config-dept8001
-    prefer‐ip‐address: true
+    instance-id: config-dept8001
+    prefer-ip-address: true
 
 ---
 
@@ -44,7 +44,7 @@ server:
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
   type-aliases-package: com.hpu.entities
-  mapper‐locations:
+  mapper-locations:
     - classpath:mybatis/mapper/**/*.xml
 
 spring:
@@ -65,8 +65,8 @@ spring:
 
 eureka:
   client:
-    service‐url:
+    service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance‐id: config-dept8001
-    prefer‐ip‐address: true
+    instance-id: config-dept8001
+    prefer-ip-address: true
